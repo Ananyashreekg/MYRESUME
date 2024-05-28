@@ -1,0 +1,107 @@
+body {
+    font-family: 'TimesnewRoman';
+    margin: 5px;
+    padding: 1px;
+    /* background: "pics/th.jpeg"; */
+    background-size: cover;
+    color: #060202;
+}
+
+.container {
+    max-width:auto;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(87, 167, 178, 0.8); /* Add a white background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 2, 2, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00090c;
+}
+
+h1 {
+    margin-top: 2px;
+    font-size: 2.5em;
+    margin-bottom: 2px;
+    color: #030203;
+}
+
+p {
+    font-size: 1em;
+    font-style: justify;
+}
+
+.about, .education, .skills, .contact {
+    margin: 2px 0;
+}
+
+.edu-item h3 {
+    margin: 2px 0;
+    color: #000000;
+}
+
+.skill {
+    margin: 5px 0;
+}
+
+.skill label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.skill input[type="range"] {
+
+    cursor: pointer;
+    width: 25%;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 5px 0;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #07090a;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
